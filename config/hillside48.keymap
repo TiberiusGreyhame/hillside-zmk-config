@@ -55,6 +55,13 @@
             #binding-cells = <0>;
             bindings = <&kp DOLLAR>, <&kp PERCENT>, <&kp AMPERSAND>;
         };
+
+        Unduredu: Unduredu {
+            compatible = "zmk,behavior-tap-dance";
+            label = "UNDUREDU";
+            #binding-cells = <0>;
+            bindings = <&kp C_AC_UNDO>, <&kp C_AC_REDO>;
+        };
     };
 
     keymap {
