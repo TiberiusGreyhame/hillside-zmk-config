@@ -73,6 +73,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <20 15>;
         };
+
+        OutlookTaskOnenote {
+            bindings = <&kp LC(RS(KP_NUMBER_5))>;
+            key-positions = <3 8>;
+        };
     };
 
     keymap {
