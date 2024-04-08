@@ -78,6 +78,11 @@
             bindings = <&kp LC(RS(KP_NUMBER_5))>;
             key-positions = <3 8>;
         };
+
+        togglenumnav {
+            bindings = <&tog 1>;
+            key-positions = <41 44>;
+        };
     };
 
     keymap {
