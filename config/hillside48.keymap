@@ -129,10 +129,10 @@
  */
 
             bindings = <
-&kp EXCLAMATION  &kp AT     &kp HASH        &kp DOLLAR      &kp PERCENT  &kp AMPERSAND                                  &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS         &trans
-&kp GRAVE        &kp CARET  &none           &kp UP_ARROW    &none        &kp HOME                                       &kp STAR         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE     &trans
-&trans           &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT    &kp END        &trans                  &trans  &kp LESS_THAN    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp GREATER_THAN  &trans
-                            &trans                          &trans       &trans         &mo 2   &trans  &trans  &mo 2   &kp KP_NUMBER_0  &trans                            &kp DOT
+&kp EXCLAMATION  &kp AT     &kp HASH  &kp DOLLAR      &kp PERCENT      &kp AMPERSAND                                  &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS         &trans
+&kp GRAVE        &kp CARET  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP                                    &kp STAR         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE     &trans
+&trans           &none      &kp HOME  &kp DOWN_ARROW  &kp END          &kp PG_DN      &trans                  &trans  &kp LESS_THAN    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp GREATER_THAN  &trans
+                            &trans                    &trans           &trans         &mo 2   &trans  &trans  &mo 2   &kp KP_NUMBER_0  &trans                            &kp DOT
             >;
         };
 
