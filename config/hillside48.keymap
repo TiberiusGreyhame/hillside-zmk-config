@@ -22,9 +22,6 @@
 #define Copy   LC(C)
 #define Paste  LC(V)
 
-&led_strip {
-    chain-length = <5>;
-};
 
 / {
     behaviors {
