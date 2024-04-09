@@ -122,14 +122,14 @@
  */
 
             bindings = <
-&trans  &none  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP                                   &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS         &trans
-&none   &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN                                 &kp STAR         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE     &trans
-&trans  &none  &none           &none           &none            &none          &trans                 &trans  &kp LESS_THAN    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp GREATER_THAN  &trans
-               &trans                          &trans           &trans         &trans  &none  &trans  &trans  &kp KP_NUMBER_0  &trans                            &kp DOT
+&kp EXCLAMATION  &kp AT     &kp HASH        &kp DOLLAR      &kp PERCENT  &kp AMPERSAND                                 &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS         &trans
+&kp GRAVE        &kp CARET  &kp HOME        &kp UP_ARROW    &kp END      &kp PAGE_UP                                   &kp STAR         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE     &trans
+&trans           &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT    &kp PAGE_DOWN  &trans                 &trans  &kp LESS_THAN    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp GREATER_THAN  &trans
+                            &trans                          &trans       &trans         &mo 2   &none  &trans  &mo 2   &kp KP_NUMBER_0  &trans                            &kp DOT
             >;
         };
 
-        num_layer {
+        Sys_Sym {
             /* NUM
  * -------------------------------------------------------------------------------------------------------------------------------------
  * | F1    |  F2   | Home  |  Up   |  End  |  F9   |-----------------------------------|   /   |   7   |   8   |   9   |   -   | BSPC  |
@@ -139,10 +139,10 @@
  */
 
             bindings = <
-&none         &kp EXCLAMATION  &kp AT        &kp HASH    &kp DOLLAR      &kp CARET                                                             &kp AMPERSAND  &kp N7             &kp N8        &kp N9             &kp N0   &trans
-&kp F1        &kp F2           &kp F3        &kp F4      &kp F5          &kp F6                                                                &kp F7         &kp F8             &kp F9        &kp F10            &kp F11  &kp F12
-&bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL  &ext_power EP_TOG  &kp C_VOLUME_UP                 &kp C_VOLUME_DOWN  &none          &ext_power EP_OFF  &out OUT_USB  &out OUT_BLE       &none    &none
-                               &trans                    &trans          &trans             &trans           &none  &trans  &trans             &none          &trans                           &kp LG(LS(KP_N4))
+&none         &kp EXCLAMATION  &kp AT        &kp HASH    &kp DOLLAR      &kp CARET                                         &kp AMPERSAND  &kp N7             &kp N8        &kp N9             &kp N0   &trans
+&kp F1        &kp F2           &kp F3        &kp F4      &kp F5          &kp F6                                            &kp F7         &kp F8             &kp F9        &kp F10            &kp F11  &kp F12
+&bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL  &ext_power EP_TOG  &trans                 &trans  &none          &ext_power EP_OFF  &out OUT_USB  &out OUT_BLE       &none    &none
+                               &trans                    &trans          &trans             &trans  &none  &trans  &trans  &none          &trans                           &kp LG(LS(KP_N4))
             >;
         };
     };
