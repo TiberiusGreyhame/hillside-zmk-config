@@ -90,7 +90,7 @@
         };
 
         OutlookTaskOnenote {
-            bindings = <&kp LC(RS(KP_NUMBER_5))>;
+            bindings = <&kp LC(RS(N5))>;
             key-positions = <3 8>;
         };
 
@@ -130,10 +130,10 @@
  */
 
             bindings = <
-&kp EXCLAMATION  &kp AT     &kp HASH  &kp DOLLAR      &kp PERCENT      &kp AMPERSAND                                  &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS         &trans
-&kp GRAVE        &kp CARET  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP                                    &kp STAR         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE     &trans
-&trans           &none      &kp HOME  &kp DOWN_ARROW  &kp END          &kp PG_DN      &trans                  &trans  &kp LESS_THAN    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp GREATER_THAN  &trans
-                            &trans                    &trans           &trans         &mo 2   &trans  &trans  &mo 2   &kp KP_NUMBER_0  &trans                            &kp DOT
+&kp EXCLAMATION  &kp AT     &kp HASH  &kp DOLLAR      &kp PERCENT      &kp AMPERSAND                                  &kp PLUS         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS         &trans
+&kp GRAVE        &kp CARET  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP                                    &kp STAR         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_DIVIDE     &trans
+&trans           &none      &kp HOME  &kp DOWN_ARROW  &kp END          &kp PG_DN      &trans                  &trans  &kp LESS_THAN    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GREATER_THAN  &trans
+                            &trans                    &trans           &trans         &mo 2   &trans  &trans  &mo 2   &kp KP_NUMBER_0  &trans                      &kp DOT
             >;
         };
 
@@ -151,6 +151,15 @@
 &kp F1        &kp F2           &kp F3        &kp F4      &kp F5          &kp F6                                             &kp F7           &kp F8             &kp F9        &kp F10            &kp F11         &kp F12
 &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL  &ext_power EP_TOG  &trans                  &trans  &rgb_ug RGB_TOG  &ext_power EP_OFF  &out OUT_USB  &out OUT_BLE       &rgb_ug RGB_ON  &none
                                &trans                    &trans          &trans             &trans  &trans  &trans  &trans  &none            &trans                           &kp LG(LS(KP_N4))
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
             >;
         };
     };
