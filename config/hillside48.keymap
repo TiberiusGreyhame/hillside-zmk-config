@@ -35,6 +35,7 @@ ZMK_UNICODE_SINGLE(em_dash, N2, N0, N1, N4)
             compatible = "zmk,behavior-tap-dance";
             label = "OPEN_PARENBRACKCURL";
             #binding-cells = <0>;
+            tapping-term-ms = <300>;
             bindings =
                 <&kp LEFT_PARENTHESIS>,
                 <&kp LEFT_BRACKET>,
@@ -45,6 +46,7 @@ ZMK_UNICODE_SINGLE(em_dash, N2, N0, N1, N4)
             compatible = "zmk,behavior-tap-dance";
             label = "CLOSE_PARENBRACKCURL";
             #binding-cells = <0>;
+            tapping-term-ms = <300>;
             bindings =
                 <&kp RIGHT_PARENTHESIS>,
                 <&kp RIGHT_BRACKET>,
@@ -55,6 +57,7 @@ ZMK_UNICODE_SINGLE(em_dash, N2, N0, N1, N4)
             compatible = "zmk,behavior-tap-dance";
             label = "ATEXCLAIMHASH";
             #binding-cells = <0>;
+            tapping-term-ms = <300>;
             bindings = <&kp EXCLAMATION>, <&kp AT>, <&kp HASH>;
         };
 
@@ -62,6 +65,7 @@ ZMK_UNICODE_SINGLE(em_dash, N2, N0, N1, N4)
             compatible = "zmk,behavior-tap-dance";
             label = "DOLLARPERCENTAMPERSAND";
             #binding-cells = <0>;
+            tapping-term-ms = <300>;
             bindings = <&kp DOLLAR>, <&kp PERCENT>, <&kp AMPERSAND>;
         };
 
@@ -69,6 +73,7 @@ ZMK_UNICODE_SINGLE(em_dash, N2, N0, N1, N4)
             compatible = "zmk,behavior-tap-dance";
             label = "UNDUREDU";
             #binding-cells = <0>;
+            tapping-term-ms = <300>;
             bindings = <&kp C_AC_UNDO>, <&kp C_AC_REDO>;
         };
 
@@ -90,6 +95,7 @@ ZMK_UNICODE_SINGLE(em_dash, N2, N0, N1, N4)
             compatible = "zmk,behavior-tap-dance";
             label = "MSNCTRL_SCRNSHT_TSKMGR";
             #binding-cells = <0>;
+            tapping-term-ms = <300>;
             bindings =
                 <&kp LG(UP_ARROW)>,
                 <&kp RG(RS(NUMBER_2))>,
@@ -100,6 +106,7 @@ ZMK_UNICODE_SINGLE(em_dash, N2, N0, N1, N4)
             compatible = "zmk,behavior-tap-dance";
             label = "DASH_LONG_UNDER";
             #binding-cells = <0>;
+            tapping-term-ms = <300>;
             bindings = <&kp MINUS>, <&kp UNDERSCORE>, <&em_dash>;
         };
     };
