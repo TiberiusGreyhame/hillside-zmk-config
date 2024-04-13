@@ -26,7 +26,7 @@
 #define Copy   LC(C)
 #define Paste  LC(V)
 
-ZMK_UNICODE_SINGLE(em_dash, N0, N1, N5, N1)
+ZMK_UNICODE_SINGLE(em_dash, N2, N0, N1, N4)
 
 /{
 
@@ -100,7 +100,7 @@ ZMK_UNICODE_SINGLE(em_dash, N0, N1, N5, N1)
             compatible = "zmk,behavior-tap-dance";
             label = "DASH_LONG_UNDER";
             #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&em_dash>, <&kp UNDERSCORE>;
+            bindings = <&kp MINUS>, <&kp UNDERSCORE>, <&em_dash>,;
         };
     };
 
