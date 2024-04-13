@@ -10,6 +10,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
+#define HOST_OS 2
 #include "../zmk-nodefree-config-main/helper.h"
 
 #define QWERTY_L 0
@@ -35,6 +36,7 @@
                 <&kp LEFT_BRACKET>,
                 <&kp LEFT_BRACE>;
         };
+        ZMK_UNICODE_SINGLE(em_dash, N0, N1, N5, N1)
 
         close_parenbrackcurl: close_parenbrackcurl {
             compatible = "zmk,behavior-tap-dance";
