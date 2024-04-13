@@ -28,7 +28,7 @@
 
 ZMK_UNICODE_SINGLE(em_dash, N0, N1, N5, N1)
 
-/
+/{
 
     behaviors {
         open_parenbrackcurl: open_parenbrackcurl {
@@ -131,9 +131,6 @@ ZMK_UNICODE_SINGLE(em_dash, N0, N1, N5, N1)
             bindings = <&kp K_MUTE>;
             key-positions = <11 10>;
         };
-    };
-
-    behaviors {
     };
 
     keymap {
