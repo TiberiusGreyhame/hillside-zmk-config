@@ -100,7 +100,7 @@ ZMK_UNICODE_SINGLE(em_dash, N2, N0, N1, N4)
             compatible = "zmk,behavior-tap-dance";
             label = "DASH_LONG_UNDER";
             #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp UNDERSCORE>, <&em_dash>,;
+            bindings = <&kp MINUS>, <&kp UNDERSCORE>, <&em_dash>;
         };
     };
 
