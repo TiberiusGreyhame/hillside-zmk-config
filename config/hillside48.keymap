@@ -25,6 +25,8 @@
 #define Copy   LC(C)
 #define Paste  LC(V)
 
+ZMK_UNICODE_SINGLE(em_dash, N0, N1, N5, N1)
+
 / {
     behaviors {
         open_parenbrackcurl: open_parenbrackcurl {
@@ -36,7 +38,6 @@
                 <&kp LEFT_BRACKET>,
                 <&kp LEFT_BRACE>;
         };
-        ZMK_UNICODE_SINGLE(em_dash, N0, N1, N5, N1)
 
         close_parenbrackcurl: close_parenbrackcurl {
             compatible = "zmk,behavior-tap-dance";
